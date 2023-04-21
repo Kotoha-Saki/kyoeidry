@@ -1,0 +1,25 @@
+* {
+
+}
+
+body {
+
+}
+
+.nav ul {
+  padding-left: 0;
+}
+
+.nav ul li{
+  list-style: none;
+}
+
+.header img{
+  width: 100%;
+  height: auto;
+  top: 9000px;
+}
+
+.title {
+
+}
