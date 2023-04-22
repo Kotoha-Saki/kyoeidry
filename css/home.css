@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'TsunagiGothic';
+  src: url("../font/TsunagiGothic.ttf");
+}
+
 * {
 
 }
@@ -6,7 +11,15 @@ body {
 
 }
 
+.nav {
+  padding-top: 5px;
+  height: 250px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 .nav ul {
+  display: flex;
   padding-left: 0;
 }
 
@@ -15,11 +28,15 @@ body {
 }
 
 .header img{
+  margin-top: 0px;
   width: 100%;
-  height: auto;
-  top: 9000px;
+  height: 30pc;
+  object-fit: cover;
 }
 
 .title {
-
+  margin-top: 150px;
+  font-size: 70px;
+  text-align: center;
+  font-family: "TsunagiGothic";
 }
