@@ -90,22 +90,31 @@ nav ul li a{
   font-size: 50px;
   text-align: center;
   margin-bottom: 40px;
-  color: #fc0000;
+  color: #000000;
 }
 
 .news {
-  margin-left: 100px;
+  font-size: 20px;
+  margin-left: 160px;
   position: absolute;
   margin-top: 600px;
   padding: 50px 0;
   width: 40%;
   height: auto;
-  background: #ffe1dd;
+  background: #ffdbdb;
   border-radius: 30px;
+}
+
+.time {
+  font-size:20px;
 }
 
 .news .news_list {
   margin: 0 5%;
+}
+
+.news_item {
+  font-size: 20px;
 }
 
 .news .news_list .news_list_item {
