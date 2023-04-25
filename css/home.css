@@ -259,3 +259,39 @@ footer {
 .footer_text {
   color: black;
 }
+
+.home-pr1 {
+  position: absolute;
+  background: #ffdbdb;
+  width: 30%;
+  height: 350px;
+  margin-left: 1000px;
+  top: 170px;
+  border-radius: 30px;
+}
+
+.home-pr2 {
+  position: absolute;
+  background-color: red;
+  width: 50%;
+  height: auto;
+  left: 1950px;
+  top: 0px;
+  border-radius: 30px;
+}
+
+.primg {
+  margin-left: 10px;
+  margin-top: 40px;
+}
+
+.prtext1 {
+  font-size: 40px;
+  margin-left: 150px;
+  margin-top: -300px;
+  margin-right: 30px;
+}
+
+.pr-color {
+  color: red;
+}
