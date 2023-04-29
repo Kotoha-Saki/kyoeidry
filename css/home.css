@@ -10,12 +10,12 @@
   font-family: "TsunagiGothic";
 }
 
-a {
-  text-decoration: none; /* aタグ（リンクの下線を消す） テキストデコレーション*/
+body {
+  background: #ffdede;
 }
 
-body {
-
+a {
+  text-decoration: none; /* aタグ（リンクの下線を消す） テキストデコレーション*/
 }
 
 .header-list {
@@ -74,6 +74,12 @@ nav ul li a:hover{
   position: absolute;
   margin-left: 50px;
   margin-top: 40px;
+  margin-right: 30px;
+}
+
+.header-img img {
+  width: 100%;
+  height: auto;
 }
 
 .header-img2 img{
@@ -81,6 +87,10 @@ nav ul li a:hover{
   height: 23pc;
   object-fit: cover;
   margin-top: 143px;
+}
+
+.header-nav {
+  background: white;
 }
 
 .title {
@@ -110,7 +120,7 @@ nav ul li a:hover{
 }
 
 .news {
-  animation: zoomIn 2.5s cubic-bezier(0.25, 1, 0.5, 1) 1 forwards;
+  animation: zoomIn 1.5s cubic-bezier(0.25, 1, 0.5, 1) 1 forwards;
 }
 
 @keyframes zoomIn {
@@ -125,17 +135,15 @@ nav ul li a:hover{
 }
 
 .news {
-  background: -webkit-repeating-linear-gradient(-45deg, #dff6ff, #dff5ff 8px, #b1e8ff 10px, #b1e4ff 35px);
-  background: repeating-linear-gradient(-45deg, #ddf4fd, #ddf3fd 8px, #b0e6fd 10px, #b0e2fd 35px);
   font-size: 20px;
-  position: absolute;
+  position: relative;
   padding: 50px 0;
-  width: 40%;
   height: auto;
   border-radius: 30px;
   top: 700px;
   left: 200px;
-  margin-right: 50px;
+  display: flex;
+  align-items: center;
 }
 
 .time {
@@ -152,12 +160,12 @@ nav ul li a:hover{
 
 .news .news_list .news_list_item {
   padding: 25px 0;
-  border-bottom: 5px solid #71b9fd;
+  border-bottom: 5px solid #fd7171;
   background-color: rgb(255, 255, 255,0.55);
 }
 
 .news .news_list .news_list_item:first-child {
-  border-top: 5px solid #72baff;
+  border-top: 5px solid #fb7070;
 }
 .news .news_list .news_list_item a {
   position: relative;
@@ -173,7 +181,7 @@ nav ul li a:hover{
 }
 
 .news .news_list .news_list_item a .news_list_date .news_item {
-  background: #5bc5ff;
+  background: #ff9f9f;
   border-radius: 14px;
   width: 6em;
   /* 親要素の文字サイズを基準 */
@@ -200,6 +208,10 @@ nav ul li a:hover{
   position: absolute;
   right: 0px;
   bottom: 2px;
+}
+
+.time {
+  padding-left: 20px;
 }
 
 /* バナー本体 */
@@ -267,10 +279,10 @@ footer {
   border-radius: 30px;
   height: auto;
   padding-bottom: 30px;
-  position: relative;
-  display: flex;
+  position: absolute;
+  display: block;
   top: 200px;
-  left: 200px;
+  right: -1300px;
   margin-right: 50px;
 }
 
@@ -315,4 +327,16 @@ footer {
 
 .pr-color2 {
   color: #00a6ff;
+}
+
+@media screen and (max-width: 1281px) {
+  body {
+    background: #ff1c1c;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  body {
+    background: #00a6ff;
+  }
 }
