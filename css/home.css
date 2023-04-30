@@ -9,7 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "TsunagiGothic";
+    font-family: "TsunagiGothic", serif;
   }
   
   body {
@@ -36,7 +36,7 @@
   
   .header-img2 img{
     width: 100%;
-    height: 23pc;
+    height: 10pc;
     object-fit: cover;
     margin-top: 143px;
   }
@@ -53,7 +53,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "TsunagiGothic";
+    font-family: "TsunagiGothic", serif;
   }
   
   body {
@@ -80,7 +80,7 @@
   
   .header-img2 img{
     width: 100%;
-    height: 23pc;
+    height: 5pc;
     object-fit: cover;
     margin-top: 143px;
   }
@@ -99,7 +99,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "TsunagiGothic";
+    font-family: "TsunagiGothic", serif;
   }
   
   body {
@@ -139,7 +139,7 @@
     position: relative;
     color: #ff0000;
     font-size: 25px;
-    font-family: "TsunagiGothic";
+    font-family: "TsunagiGothic", serif;
     padding: 10px 15px 10px 15px;
     display: inline-block;
     text-decoration:none;
@@ -191,7 +191,7 @@
     margin-left: 500px;
     font-size: 70px;
     text-align: left;
-    font-family: "TsunagiGothic";
+    font-family: "TsunagiGothic", serif;
   }
   
   .news .news_list .news_list_item a {
@@ -294,7 +294,6 @@
     background: #707070;
     transform: rotate(45deg);
     position: absolute;
-    right: 0px;
     bottom: 2px;
   }
   
